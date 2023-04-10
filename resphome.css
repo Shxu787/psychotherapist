@@ -1,0 +1,165 @@
+ 
+  @media screen and (max-width: 1070px) {
+    body {
+      width: 100%;
+      height: 100%;
+    }
+      header nav .checkBtn {
+        display: block;
+      }
+      header {
+        top: 0;
+        height: 130px;
+        width: 90%;
+        background-color: white;
+        
+      }
+      
+    
+      header nav .nav-items {
+        position: fixed;
+        width: 90%;
+        height: 100%;
+        background-color: rgb(213,225,223);
+        top: 0px;
+        left: -100%;
+        transition: all 0.5s;
+        z-index: 10;
+      }
+      header nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+  
+      }
+      
+      header nav .nav-items ul {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 0px;
+        display: grid;
+        align-content: center;
+        align-items: start;
+        justify-content: center;
+        text-align: center;
+      }
+       
+      header nav .nav-items .checkBtn {
+        width: 90%;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 45px;
+        
+        
+      }
+      header nav .nav-items ul li a {
+        font-size: 1rem;
+      }
+  
+      header nav .logo a {
+        font-size: 34px;
+        width: 90%;
+        font-weight: 20;
+      }
+    
+      header nav .nav-items ul li a:hover,
+      header nav .nav-items ul li a.active {
+        background-color: transparent;
+        color: black;
+      }
+      
+    
+      header nav #check:checked ~ .nav-items {
+        left: 0px;
+      }
+      main {
+        width: 100%;
+        height: 100%;
+        
+      }
+  
+      main .name {
+        display: grid;
+        width: 100%;
+        align-content: center;
+        
+      }
+     main .name .left {
+      margin-top: 130px;
+      width: 100%;
+      height: 100%;
+      
+     }
+      main .name .left img {
+        width: 100% ;
+        object-fit: cover;
+        height: 330px;
+      }
+      .chat {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        right: 100px;
+        position: fixed;
+        border-radius: 360px;
+        width: 70px;
+        height: 70px;
+      }
+       .chat p {
+        font-weight: 0;
+        color: transparent;
+       }
+      .chat i {
+        font-size: 2em;
+        margin-left: 20px;
+      }
+      main .right {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      main .right .head {
+        display: grid;
+        align-content: center;
+      }
+      main .areas {
+        width: 100%;
+        height: 1500px;
+      }
+      main .areas .read {
+        display: grid;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      main .areas .expertise {
+        width: 100%;
+        position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+      }
+      main .areas .paragraph {
+        width: 100%;
+        position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+      }
+      
+    }
+  
+  
+  @media screen and (max-width: 1050px) {
+    
+   
+  }

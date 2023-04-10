@@ -1,0 +1,246 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 1000;
+    
+  }
+  
+  header {
+    width: 100%;
+    height: 90px;
+    filter: unset;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Jost', sans-serif;
+    background-color: rgba(255,255,255,0.6);
+    box-sizing: border-box;
+    font-weight: 50;
+}
+
+  
+  
+  header nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav .logo a {
+    padding: 0px 3rem;
+    color: black;
+    font-size: 16px;
+    line-height: 5rem;
+    font-weight: 20;
+    text-decoration: none;
+  }
+  header nav .logo a:hover {
+       color: rgb(163, 184, 180) ;
+       transform: 1s ease;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2rem;
+    margin: 0px;
+    line-height: 5rem;
+    gap: 0.5rem;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    color: black;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: 50;
+  }
+  
+  header nav ul li a.active,
+  header nav ul li a:hover {
+    color: rgb(163, 184, 180);
+    transform: 0.5s ease;
+  }
+  
+  header nav .checkBtn {
+    color: grey;
+    font-size: 2rem;
+    line-height: 5rem;
+    cursor: pointer;
+    padding: 0px 2rem;
+    display: none;
+  }
+  
+  header nav #check {
+    display: none;
+  }
+  .chat  {
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(163, 184, 180);
+    position: fixed;
+    width: 200px;
+    height: 56px;
+    border-radius: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 22;
+    gap: 10px;
+  }
+  .chat i {
+    font-size: 1.8em;
+    color: white;
+  }
+  .chat p {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+  }
+  footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(66,71,70);
+    position: relative;
+    bottom: 0;
+    top: 1250px;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Jost', sans-serif;
+    
+  }
+  footer p {
+    font-weight: 25;
+    color: white;
+    margin: 10px;
+    font-size: 14px;
+    
+  }
+  footer p a {
+    font-weight: 25;
+    color: white;
+    font-size: 18px;
+    
+  }
+  main .all {
+    width: 100%;
+    height: 1200px;
+    margin-top: 38px;
+    background-color: rgb(242, 242, 242);
+    
+    justify-content: center;
+    
+  }
+  main .all .text {
+    width: 100%;
+    height: 280px;
+    display: grid;
+    row-gap: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  main .all .text .head {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 25;
+    
+  }
+  main .all .text .head h2 {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+  }
+  main .all .text .head p {
+    margin: 0;
+    width: 800px;
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+  main .all .frames {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      
+  }
+   main .all .frames .every {
+    width: 90%;
+   }
+   main .all .frames .search {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   main .all .frames .search a article {
+    width: 164.40px;
+    height: 133px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   main .all .frames .search a article .overlay {
+    background-color: rgb(54, 54, 54, 0.65);
+    color: white;
+    opacity: 0;
+    transition: .5s ease;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   main .all .frames .search a article:hover .overlay {
+    opacity: 1;
+   }
+   main .all .frames .search a article:nth-child(1) {
+   background-image: url("https://static.wixstatic.com/media/933dee_fb70d32c5b81414d8fa89e1362e336f0~mv2.jpg/v1/fill/w_600,h_600,al_c,q_80,usm_0.66_1.00_0.01/933dee_fb70d32c5b81414d8fa89e1362e336f0~mv2.jpg");
+   }
+   main .all .frames .search a i {
+    font-size: 2em;
+   }
+   main .all .frames .search a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Jost', sans-serif ;
+    height: 180px;
+    gap: 20px;
+   }
+   main .all .frames .search a .text {
+    
+   display: grid;
+   align-items: center;
+   justify-content: start;
+   align-content: center;
+   text-align: start;
+   font-weight: 25;
+   
+   }
+   main .all .frames .search a .text p {
+    margin: 5px;
+   }
+   main .all .frames .search a .text h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 25;
+   }
+   hr {
+    width: 800px;
+    margin: 0;
+   }
